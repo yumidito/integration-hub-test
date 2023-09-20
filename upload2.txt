@@ -1,0 +1,1 @@
+Novo arquivo 1.\nPatricia: { 1: 2 }
