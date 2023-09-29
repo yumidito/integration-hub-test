@@ -1,0 +1,53 @@
+{
+  "environments": [
+    {
+      "name": "production",
+      "configOverride": {
+        "defaultDatabase": "it-sellers-pipeline-prod"
+      },
+      "schedules": [
+        {
+          "name": "pipeline_sellers_utils_daily",
+          "cron": "0 1 * * *",
+          "tags": [
+            "utils"
+          ],
+          "disabled": false,
+          "notify": [
+            {
+              "channel": "integrations-alerts",
+              "statuses": [
+                "FAILURE"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "pipeline_sellers_lucidez_daily",
+          "cron": "0 5 * * *",
+          "tags": [
+            "lucidez"
+          ],
+          "disabled": false,
+          "notify": [
+            {
+              "channel": "integrations-alerts",
+              "statuses": [
+                "FAILURE"
+              ]
+            }
+          ]
+        }
+      ],
+      "gitRef": "master"
+    }
+  ],
+  "notificationChannels": [
+    {
+      "name": "integrations-alerts",
+      "slack": {
+        "webhookUrl": "https://hooks.slack.com/services/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"
+      }
+    }
+  ]
+}
