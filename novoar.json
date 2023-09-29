@@ -1,0 +1,47 @@
+{
+  "microvix_service": [
+    "alphabeto",
+    "fuel_eyewear"
+  ],
+  "db_service": [
+    "green_by_missako",
+    "taco",
+    "vizzent_calcados_oficial",
+    "lar_brasil",
+    "saint_james",
+    "sapatella",
+    "sonho_dos_pes",
+    "dra_cherie",
+    "tng_oficial",
+    "haight",
+    "lafort_oficial",
+    "live",
+    "tania_bulhoes",
+    "kikos_calcados"
+  ],
+  "virtualageV2_service": [
+    "alto_giro",
+    "camargo_alfaiataria",
+    "gregory",
+    "murau",
+    "agora_sou_mae"
+  ],
+  "lupo_service": [
+    "lupo",
+    "scala"
+  ],
+  "millennium_service": [
+    "antix",
+    "le_blog",
+    "niini",
+    "pitbull_jeans",
+    "use_primicia",
+    "loja_tres",
+    "lucidez"
+  ],
+  "file_service": [
+    "polishop",
+    "novo_mundo_oficial",
+    "new_old_oficial"
+  ]
+}
