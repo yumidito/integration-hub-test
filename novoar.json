@@ -1,8 +1,4 @@
 {
-  "microvix_service": [
-    "alphabeto",
-    "fuel_eyewear"
-  ],
   "db_service": [
     "green_by_missako",
     "taco",
@@ -17,18 +13,21 @@
     "lafort_oficial",
     "live",
     "tania_bulhoes",
-    "kikos_calcados"
+    "kikos_calcados",
+    "apple_inc"
   ],
-  "virtualageV2_service": [
-    "alto_giro",
-    "camargo_alfaiataria",
-    "gregory",
-    "murau",
-    "agora_sou_mae"
+  "file_service": [
+    "polishop",
+    "novo_mundo_oficial",
+    "new_old_oficial"
   ],
   "lupo_service": [
     "lupo",
     "scala"
+  ],
+  "microvix_service": [
+    "alphabeto",
+    "fuel_eyewear"
   ],
   "millennium_service": [
     "antix",
@@ -39,9 +38,11 @@
     "loja_tres",
     "lucidez"
   ],
-  "file_service": [
-    "polishop",
-    "novo_mundo_oficial",
-    "new_old_oficial"
+  "virtualageV2_service": [
+    "alto_giro",
+    "camargo_alfaiataria",
+    "gregory",
+    "murau",
+    "agora_sou_mae"
   ]
 }
